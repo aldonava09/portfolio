@@ -1,0 +1,50 @@
+.header-text__container{
+    width: 63%; 
+    position: absolute;
+    left: 5%;
+    margin-top: 5%;
+}
+
+.header-text__title{
+    font-size: 88px;
+    line-height: 88px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 5%;
+    transition: transform 0.3s ease;
+}
+
+.header-text__title:hover {
+    transform: translateY(-10px);
+}
+
+.header-text__title-name{
+    text-decoration: 4.5px underline #4EE1A0;
+}
+
+.header-text__paragraph{
+    width: 60%;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 100;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 5%;
+}
+
+.header-text__link{
+    width: fit-content;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #fff;
+    transition: color 0.3s ease;
+    margin: 0;
+    text-decoration: none;
+    border-bottom: 3px solid #4EE1A0;
+}
+
+.header-text__link:hover{
+    color: #4EE1A0;
+}

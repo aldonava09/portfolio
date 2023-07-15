@@ -1,0 +1,13 @@
+.header{
+    width: 85%;
+    height: 600px;
+    margin: auto;
+    position: relative;
+}
+
+.header__rings{
+    position: absolute;
+    top: 15%;
+    left: -20%;
+    z-index: 50;
+}
