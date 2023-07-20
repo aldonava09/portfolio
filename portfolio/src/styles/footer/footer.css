@@ -1,0 +1,15 @@
+.footer{
+    width: 100%;
+    min-height: 500px;
+    background-color: #242424;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__rings{
+    position: absolute;
+    top: 57%;
+    left: -10%;
+    z-index: 50;
+}

@@ -1,0 +1,70 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    position: relative;
+}
+
+.projects__title{
+    width: fit-content;
+    font-size: 70px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-decoration: 4.5px underline #4EE1A0;
+    transition: transform 0.3s ease;
+}
+
+.projects__title:hover{
+    transform: translateY(-20px);
+}
+
+.projects__link{
+    width: fit-content;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #fff;
+    transition: color 0.3s ease;
+    margin: 0;
+    text-decoration: none;
+    border-bottom: 3px solid #4EE1A0;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+.projects__link:hover{
+    color: #4EE1A0;
+}
+
+.projects__rings_top{
+    position: absolute;
+    top: 20%;
+    left: -20%;
+    z-index: -1;
+}
+
+.projects__rings_bottom{
+    position: absolute;
+    bottom: 20%;
+    right: -20%;
+    z-index: -1;
+}
+
+.projects__cards-container{
+    width: 85%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto, 2fr);
+    column-gap: 20px;
+    row-gap: 30px;
+}

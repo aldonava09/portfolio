@@ -1,0 +1,32 @@
+.contact__text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__text-title{
+    width: fit-content;
+    font-size: 70px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 2%;
+    text-decoration: 4.5px underline #4EE1A0;
+    transition: transform 0.3s ease;
+}
+
+.contact__text-title:hover{
+    transform: translateY(-20px);
+}
+
+.contact__text-paragraph{
+    width: 60%;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 100;
+    color: #fff;
+    margin: 0;
+    text-align: justify;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Card({ logo, name, experience, isBlack}) {
+function SkillsCard({ logo, name, experience, isBlack}) {
     return (
       <div className="skills__card">
         <img className={`skills__card-logo ${isBlack ? 'skills__card-logo_white' : ''}`} src={logo} alt={name + " Logo"} />
@@ -12,4 +12,4 @@ function Card({ logo, name, experience, isBlack}) {
     );
 }
 
-export default Card;
+export default SkillsCard;

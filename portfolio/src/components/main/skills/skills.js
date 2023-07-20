@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './__card/skills__card';
+import SkillsCard from './__card/skills__card';
 import '../../../styles/main/skills/skills.css';
 import Rings from '../../../images/pattern-rings.svg';
 import htmlLogo from '../../../images/html-logo.png';
@@ -10,7 +10,6 @@ import gitLogo from '../../../images/git-logo.png';
 import sqlLogo from '../../../images/sql-logo.png';
 import webpackLogo from '../../../images/webpack-logo.png';
 import boostrapLogo from '../../../images/bootstrap-logo.svg';
-
 
 const skillsSet = [
     {
@@ -70,7 +69,7 @@ function Skills({ data }) {
             <img className='skills__rings' src={Rings} alt='Rings Decoration'/>
             <div className='skills__cards-container'>
                 {data.map((item, index) => (
-                <Card key={index} logo={item.logo} name={item.name} experience={item.experience} isBlack={item.isBlack} />
+                <SkillsCard key={index} logo={item.logo} name={item.name} experience={item.experience} isBlack={item.isBlack} />
                 ))}
             </div>
         </section>
