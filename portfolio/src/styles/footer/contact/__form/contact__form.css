@@ -16,6 +16,15 @@
     position: relative;
 }
 
+.contact__form-title{
+    margin: auto;
+    border-bottom:  2px solid #4EE1A0;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 100;
+    color: #fff;
+}
+
 .contact__form-name-input{
     width: 100%;
     border: 0;
@@ -37,8 +46,19 @@
     border-bottom:  2px solid #dd2727;
 }
 
+.contact__form-name-correct{
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 100;
+    color: #4EE1A0;
+    background: none;
+    margin: 0;
+    margin-top: 1%;
+    align-self: flex-end;
+}
+
 .contact__form-name-error{
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.2;
     font-weight: 100;
     color: #dd2727;
@@ -71,8 +91,19 @@
     border-bottom:  2px solid #dd2727;
 }
 
+.contact__form-email-correct{
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 100;
+    color: #4EE1A0;
+    background: none;
+    margin: 0;
+    margin-top: 1%;
+    align-self: flex-end;
+}
+
 .contact__form-email-error{
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.2;
     font-weight: 100;
     color: #dd2727;
@@ -94,6 +125,7 @@
     color: #fff;
     background: none;
     margin-top: 3%;
+    resize: none;
 }
 
 .contact__form-message-input_active{
@@ -104,15 +136,25 @@
     border-bottom:  2px solid #dd2727;
 }
 
+.contact__form-message-correct{
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 100;
+    color: #4EE1A0;
+    background: none;
+    margin: 0;
+    margin-top: 1%;
+    align-self: flex-end;
+}
+
 .contact__form-message-error{
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.2;
     font-weight: 100;
     color: #dd2727;
     background: none;
     margin: 0;
     margin-top: 1%;
-    margin-bottom: 5%;
     align-self: flex-end;
 }
 
@@ -123,8 +165,19 @@
     font-size: 18px;
     line-height: 1.2;
     font-weight: 100;
-    color: #fff;
+    color: #4EE1A0;
     background: none;
     align-self: flex-end;
+    margin-top: 3%;
 }
 
+.contact__form-button_disabled{
+    color: #fff;
+    border-bottom:  2px solid #dd2727;
+}
+
+@media screen and (max-width:1024px) {
+    .contact__form{
+        margin-top: 0;
+    }
+}

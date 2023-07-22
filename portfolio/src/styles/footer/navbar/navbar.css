@@ -51,3 +51,9 @@
     width: 25px;
     height: 25px;
 }
+
+@media screen and (max-width:1024px) {
+    .navbar_footer{
+        margin-bottom: 0;
+    }
+}

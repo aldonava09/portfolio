@@ -39,7 +39,7 @@
     margin-bottom: 5%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: auto;
     column-gap: 20px;
     row-gap: 30px; 
 }
@@ -97,4 +97,18 @@
     font-weight: 100;
     color: #fff;
     margin: 0;
+}
+
+@media screen and (max-width:1024px) {
+    .skills__cards-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:768px) {
+
+}
+
+@media screen and (max-width:500px) {
+
 }
