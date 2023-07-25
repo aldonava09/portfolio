@@ -4,7 +4,7 @@ import profilePicture from '../../../images/portfolio-profile-picture.png';
 function ProfileImage() {
     return (
       <div className="profile-image__container">
-        <img className="profile-image" src={profilePicture} alt='Profile Picture' />
+        <img className="profile-image" src={profilePicture} alt='Profile' />
       </div>
     );
   }

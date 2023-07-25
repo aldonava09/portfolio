@@ -55,11 +55,11 @@ function ContactForm() {
 
   return (
     <div className='contact__form-container'>
-      <form className='contact__form' noValidate>
+      <form className='contact__form' action='https://formsubmit.co/aldonavargas@gmail.com' method='POST' noValidate>
         <h3 className='contact__form-title'>CONTACT FORM</h3>
         <input
           className={`contact__form-name-input ${focus.name && (nameValid ? 'contact__form-name-input_active' : 'contact__form-name-input_error')}`}
-          type="text"  id="nombre"  name="name" placeholder='NAME' value={form.name} onChange={handleFormInput} onFocus={() => handleFocus('name')} required/>
+          type="text"  id="name"  name="name" placeholder='NAME' value={form.name} onChange={handleFormInput} onFocus={() => handleFocus('name')} required/>
         {focus.name && form.name === "" && <span className="contact__form-name-error">This field is required!</span>}
         {focus.name && nameValid === false && form.name !== "" && <span className="contact__form-name-error">Sorry, invalid format, special characters not available!</span>}
         <input
