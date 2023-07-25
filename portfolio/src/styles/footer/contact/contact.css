@@ -5,3 +5,10 @@
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+@media screen and (max-width:768px) {
+    .contact{
+        width: 95%;
+        flex-direction: column;
+    }
+}

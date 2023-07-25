@@ -15,8 +15,8 @@ function Header() {
       <section className="header">
         <Navbar githubLink={gitHubUrl} linkedinLink={linkedinUrl}  whatsappLink={whatsappUrl}/>
         <img className='header__rings' src={Rings} alt='Rings Decoration'/>
-        <HeaderText contactLink={contactUrl}/>
         <ProfileImage/>
+        <HeaderText contactLink={contactUrl}/>
       </section>
     );
   }

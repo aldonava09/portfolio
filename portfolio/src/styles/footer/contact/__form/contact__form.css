@@ -178,6 +178,24 @@
 
 @media screen and (max-width:1024px) {
     .contact__form{
+        width: 80%;
         margin-top: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .contact__form-container{
+        align-self: center;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .contact__form{
+        margin: 0;
+    }
+
+    .contact__form-title{
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 }

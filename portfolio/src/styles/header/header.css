@@ -1,6 +1,6 @@
 .header{
     width: 85%;
-    height: 600px;
+    min-height: 600px;
     margin: auto;
     position: relative;
     margin-bottom: 5%;
@@ -11,4 +11,30 @@
     top: 15%;
     left: -20%;
     z-index: 50;
+}
+
+@media screen and (max-width:768px) {
+    .header{
+        width: 95%;
+        height: 500px;
+    }
+
+    .header__rings{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .header{
+        width: 95%;
+        min-height: 680px;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header__rings{
+        width: 70%;
+        z-index: -1;
+    }
 }

@@ -48,3 +48,45 @@
 .header-text__link:hover{
     color: #4EE1A0;
 }
+
+@media screen and (max-width:768px) {
+    .header-text__title{
+        font-size: 66px;
+        line-height: 66px;
+    }
+
+    .header-text__paragraph{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .header-text__container{
+        width: 90%;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 4%;
+    }
+
+    .header-text__title{
+        font-size: 42px;
+        line-height: 1.2;
+        margin: auto;
+        text-align: center;
+    }
+
+    .header-text__paragraph{
+        width: 100%;
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    .header-text__link{
+        font-size: 18px;
+        line-height: 1.2;
+        margin: auto;
+    }
+}

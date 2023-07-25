@@ -1,6 +1,7 @@
 .footer{
     width: 100%;
     min-height: 500px;
+    height: fit-content;
     background-color: #242424;
     position: relative;
     display: flex;
@@ -12,4 +13,24 @@
     top: 57%;
     left: -10%;
     z-index: 50;
+}
+
+@media screen and (max-width:768px) {
+    .footer{
+        padding-bottom: 4.5%;
+    }
+
+    .footer__rings{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .footer{
+        min-height: 570x;
+    }
+
+    .footer__rings{
+        width: 70%;
+    }
 }

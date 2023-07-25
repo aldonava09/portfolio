@@ -10,11 +10,11 @@ import landingPageBlogImg from '../../../images/proyecto-pagina-blog.png';
 const projectsSet = [
     {
       image: artPageImg,
-      name: 'ART GALERY LANDING PAGE',
+      name: 'ART GALERY PAGE',
       technologies: 'HTML-CSS',
       projectLink: 'https://aldonava09.github.io/Pagina-de-patria-a-patria/',
       codeLink: 'https://github.com/aldonava09/Pagina-de-patria-a-patria',
-      projectDescription:'The "De patria a patria" project is a one-page website, which functions as the contact for a photo gallery showing the hometowns of some of the Practicum employees. It has been designed with the objective of practicing the use of HTML, CSS and responsive design, making sure that all elements display correctly on the most common screen sizes.'
+      projectDescription:'"De patria a patria" project is a one-page website, which functions as the contact for a photo gallerying. It has been designed with the objective of practicing the use of HTML, CSS and responsive design, making sure that all elements display correctly on the most common screen sizes.'
     },
     {
       image: socialMediaImg,
@@ -22,7 +22,7 @@ const projectsSet = [
       technologies: 'HTML-CSS-JAVASCRIPT-WEBPACK-APIs-REST',
       projectLink: 'https://aldonava09.github.io/Project-Social-Network/',
       codeLink: 'https://github.com/aldonava09/Project-Social-Network',
-      projectDescription: 'This project is a social network that has been developed using HTML, CSS, and JavaScript. REST APIs have been used to interact with the server, and the BEM methodology has been applied to both file structure and class naming. The project also utilizes the Webpack bundler to manage dependencies and optimize the code.'
+      projectDescription: 'This project is a social network that has been developed using HTML, CSS, and JavaScript. REST APIs have been used to interact with the server, and the BEM methodology has been applied. project also utilizes the Webpack bundler to manage dependencies and optimize the code.'
     },
     {
       image: agencyPageImg,
@@ -34,11 +34,11 @@ const projectsSet = [
     },
     {
       image: landingPageBlogImg,
-      name: 'LANDING PAGE BLOG',
+      name: 'BLOG LANDING PAGE',
       technologies: 'HTML-CSS',
       projectLink: 'https://aldonava09.github.io/Proyecto-Blog-Landing-Page/',
       codeLink: 'https://github.com/aldonava09/Proyecto-Blog-Landing-Page',
-      projectDescription: 'The project is a one-page website, it consists of 11 sections in total, it is designed to expose the information in a visually attractive way, since it has a series of images, figures, third-party video resources and responsive links which they reinforce the impact of the information by being interactive with the user, on the other hand, you can also find contact links for the companys social networks'
+      projectDescription: 'The project is a one-page website, it is designed to expose the information in a visually attractive way, since it has a series of images, figures, third-party video resources and responsive links which they reinforce the impact of the information by being interactive with the user.'
     }
 ]
 

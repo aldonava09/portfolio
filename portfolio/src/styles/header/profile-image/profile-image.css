@@ -23,3 +23,33 @@
         left: -25%;
     }
 }
+
+@media screen and (max-width:768px) {
+    .profile-image__container{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .profile-image__container{
+        width: 60%;
+        height: fit-content;
+        position: absolute;
+        top: 28%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: auto;
+    }
+    
+    .profile-image{
+        width: 120%;
+        position: relative;
+        left: -9%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .profile-image__container{
+        top: 25%;
+    }
+}
