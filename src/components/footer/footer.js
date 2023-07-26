@@ -10,7 +10,7 @@ function Footer() {
     let whatsappUrl = 'https://wa.me/3121131976';
 
     return (
-      <section className="footer">
+      <section className="footer" id='footer'>
         <img className='footer__rings' src={Rings} alt='Rings Decoration'/>
         <Contact/>
         <NavbarFooter githubLink={gitHubUrl} linkedinLink={linkedinUrl}  whatsappLink={whatsappUrl}/>

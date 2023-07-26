@@ -43,12 +43,10 @@ const projectsSet = [
 ]
 
 function Projects({ data }) {
-    let contactUrl = 'https://www.linkedin.com/in/aldo-navarro-147b03282/';
-
     return (
         <section className="projects">
             <h2 className='projects__title'>Projects</h2>
-            <a className='projects__link' href={contactUrl} target='blank'>CONTACT ME</a>
+            <a className='projects__link' href={'#footer'}>CONTACT ME</a>
             <img className='projects__rings_top' src={Rings} alt='Rings Decoration'/>
             <div className='projects__cards-container'>
                 {data.map((item, index) => (

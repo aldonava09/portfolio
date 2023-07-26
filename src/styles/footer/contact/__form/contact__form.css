@@ -169,6 +169,7 @@
     background: none;
     align-self: flex-end;
     margin-top: 3%;
+    cursor: pointer;
 }
 
 .contact__form-button_disabled{

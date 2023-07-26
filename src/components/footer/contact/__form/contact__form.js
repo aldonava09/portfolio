@@ -26,7 +26,7 @@ function ContactForm() {
 
   useEffect(() => {
     const regExp = {
-      name: /^(?:[a-zA-Z]+|)$/,
+      name: /\b[\wáéíóúÁÉÍÓÚüÜñÑ]{3,}\b/,
       email: /^(?:[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}|)$/,
       message: /^(?:[\s\S]{3,150}|)$/,
     };

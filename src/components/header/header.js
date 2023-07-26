@@ -9,14 +9,13 @@ function Header() {
     let gitHubUrl = 'https://github.com/aldonava09';
     let linkedinUrl = 'https://www.linkedin.com/in/aldo-navarro-147b03282/';
     let whatsappUrl = 'https://wa.me/3121131976';
-    let contactUrl = 'https://www.linkedin.com/in/aldo-navarro-147b03282/';
-
+    
     return (
       <section className="header">
         <Navbar githubLink={gitHubUrl} linkedinLink={linkedinUrl}  whatsappLink={whatsappUrl}/>
         <img className='header__rings' src={Rings} alt='Rings Decoration'/>
         <ProfileImage/>
-        <HeaderText contactLink={contactUrl}/>
+        <HeaderText contactLink={'#footer'}/>
       </section>
     );
   }
