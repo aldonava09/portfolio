@@ -5,11 +5,15 @@ import Contact from './contact/contact';
 import NavbarFooter from './navbar_footer/navbar_footer';
 
 function Footer() {
+    let gitHubUrl = 'https://github.com/aldonava09';
+    let linkedinUrl = 'https://www.linkedin.com/in/aldo-navarro-147b03282/';
+    let whatsappUrl = 'https://wa.me/3121131976';
+
     return (
       <section className="footer">
         <img className='footer__rings' src={Rings} alt='Rings Decoration'/>
         <Contact/>
-        <NavbarFooter/>
+        <NavbarFooter githubLink={gitHubUrl} linkedinLink={linkedinUrl}  whatsappLink={whatsappUrl}/>
       </section>
     );
   }
