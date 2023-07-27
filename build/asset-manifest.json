@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f92298c5.css",
-    "main.js": "/portfolio/static/js/main.2356f13f.js",
+    "main.css": "/portfolio/static/css/main.c8230b87.css",
+    "main.js": "/portfolio/static/js/main.56e1d4cb.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/proyecto-pagina-blog.png": "/portfolio/static/media/proyecto-pagina-blog.ce5209d7bce3f7b8ccc0.png",
     "static/media/proyecto-pagina-agencia.png": "/portfolio/static/media/proyecto-pagina-agencia.22dff11586a9889b9d51.png",
@@ -18,12 +18,12 @@
     "index.html": "/portfolio/index.html",
     "static/media/icon-linkedin.svg": "/portfolio/static/media/icon-linkedin.299a1d811c6c10d4964a7018ae43228e.svg",
     "static/media/pattern-rings.svg": "/portfolio/static/media/pattern-rings.e62a24d55bee668faa1f245882fad1b7.svg",
-    "main.f92298c5.css.map": "/portfolio/static/css/main.f92298c5.css.map",
-    "main.2356f13f.js.map": "/portfolio/static/js/main.2356f13f.js.map",
+    "main.c8230b87.css.map": "/portfolio/static/css/main.c8230b87.css.map",
+    "main.56e1d4cb.js.map": "/portfolio/static/js/main.56e1d4cb.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f92298c5.css",
-    "static/js/main.2356f13f.js"
+    "static/css/main.c8230b87.css",
+    "static/js/main.56e1d4cb.js"
   ]
 }

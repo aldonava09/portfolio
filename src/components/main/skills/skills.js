@@ -15,49 +15,49 @@ const skillsSet = [
     {
       logo: htmlLogo,
       name: 'HTML',
-      experience: '2 years experience',
+      experience: '2 year experience',
       isBlack: true
     },
     {
       logo: cssLogo,
       name: 'CSS',
-      experience: '2 years experience',
+      experience: '1 year experience',
       isBlack: false
     },
     {
       logo: jsLogo,
       name: 'JAVASCRIPT',
-      experience: '2 years experience',
+      experience: '1 year experience',
       isBlack: false
     },
     {
       logo: reactLogo,
       name: 'REACT',
-      experience: '2 years experience',
+      experience: '1 year experience',
       isBlack: true
     },
     {
       logo: gitLogo,
       name: 'GIT',
-      experience: '2 years experience',
+      experience: '1 year experience',
       isBlack: false
     },
     {
       logo: sqlLogo,
       name: 'SQL',
-      experience: '2 years experience',
+      experience: '3  months experience',
       isBlack: true
     },    
     {
       logo: webpackLogo,
       name: 'WEBPACK',
-      experience: '2 years experience',
+      experience: '6 months experience',
       isBlack: true
     },
     {
       logo: boostrapLogo,
       name: 'BOOSTRAP',
-      experience: '2 years experience',
+      experience: '4 months experience',
       isBlack: true
     }
 ]
