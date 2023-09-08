@@ -5,6 +5,7 @@ import Rings from '../../../images/pattern-rings.svg';
 import artPageImg from '../../../images/proyecto-pagina-galeria-arte.png';
 import socialMediaImg from '../../../images/proyecto-red-social.png';
 import agencyPageImg from '../../../images/proyecto-pagina-agencia.png';
+import salesCardPageImg from '../../../images/proyecto-tarjetas-venta.png';
 import landingPageBlogImg from '../../../images/proyecto-pagina-blog.png';
 
 const projectsSet = [
@@ -31,6 +32,14 @@ const projectsSet = [
       projectLink: 'https://aldonava09.github.io/Proyecto-Boostrap/',
       codeLink: 'https://github.com/aldonava09/Proyecto-Boostrap',
       projectDescription: 'This project is a web page for a web development agency specialized in creating sites for other businesses, using CSS, HTML JavaScript, by the use of Bootstrap framework.'
+    },
+    {
+      image: salesCardPageImg,
+      name: 'SALES CARDS LANDING PAGE',
+      technologies: 'HTML-CSS-REACTJS-VITE',
+      projectLink: 'https://aldonava09.github.io/project-sales-card/',
+      codeLink: 'https://github.com/aldonava09/project-sales-card',
+      projectDescription: 'This project is a React-based landing page designed and developed to promote a subscription for a cloud storage service. The page showcases sales cards with detailed information about various available plans.'
     },
     {
       image: landingPageBlogImg,
