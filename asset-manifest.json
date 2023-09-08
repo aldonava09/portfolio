@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c8230b87.css",
-    "main.js": "/portfolio/static/js/main.b216804c.js",
+    "main.js": "/portfolio/static/js/main.4b35a687.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/proyecto-pagina-blog.png": "/portfolio/static/media/proyecto-pagina-blog.ce5209d7bce3f7b8ccc0.png",
     "static/media/proyecto-pagina-agencia.png": "/portfolio/static/media/proyecto-pagina-agencia.22dff11586a9889b9d51.png",
     "static/media/proyecto-red-social.png": "/portfolio/static/media/proyecto-red-social.4a5272f2caf66f3817bb.png",
     "static/media/portfolio-profile-picture.png": "/portfolio/static/media/portfolio-profile-picture.c1f632afa72993ba7a6e.png",
     "static/media/proyecto-pagina-galeria-arte.png": "/portfolio/static/media/proyecto-pagina-galeria-arte.ce87c73eede9cd4c6704.png",
+    "static/media/proyecto-tarjetas-venta.png": "/portfolio/static/media/proyecto-tarjetas-venta.c45d22c03ade734bb9a9.png",
     "static/media/html-logo.png": "/portfolio/static/media/html-logo.f1cb2ca554e4148c67a6.png",
     "static/media/webpack-logo.png": "/portfolio/static/media/webpack-logo.2a9786d5f79a0151fb02.png",
     "static/media/sql-logo.png": "/portfolio/static/media/sql-logo.0b5f3aa447c65ef2ff29.png",
@@ -19,11 +20,11 @@
     "static/media/icon-linkedin.svg": "/portfolio/static/media/icon-linkedin.299a1d811c6c10d4964a7018ae43228e.svg",
     "static/media/pattern-rings.svg": "/portfolio/static/media/pattern-rings.e62a24d55bee668faa1f245882fad1b7.svg",
     "main.c8230b87.css.map": "/portfolio/static/css/main.c8230b87.css.map",
-    "main.b216804c.js.map": "/portfolio/static/js/main.b216804c.js.map",
+    "main.4b35a687.js.map": "/portfolio/static/js/main.4b35a687.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8230b87.css",
-    "static/js/main.b216804c.js"
+    "static/js/main.4b35a687.js"
   ]
 }
