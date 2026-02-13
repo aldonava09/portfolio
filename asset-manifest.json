@@ -1,30 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c8230b87.css",
-    "main.js": "/portfolio/static/js/main.b1a3f6e9.js",
+    "main.css": "/portfolio/static/css/main.ee4083e4.css",
+    "main.js": "/portfolio/static/js/main.df1463e8.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/proyecto-pagina-blog.png": "/portfolio/static/media/proyecto-pagina-blog.ce5209d7bce3f7b8ccc0.png",
-    "static/media/proyecto-pagina-agencia.png": "/portfolio/static/media/proyecto-pagina-agencia.22dff11586a9889b9d51.png",
-    "static/media/proyecto-red-social.png": "/portfolio/static/media/proyecto-red-social.4a5272f2caf66f3817bb.png",
+    "static/media/lending-portfolio-dashboard.png": "/portfolio/static/media/lending-portfolio-dashboard.b98eed447cee1de90361.png",
     "static/media/portfolio-profile-picture.png": "/portfolio/static/media/portfolio-profile-picture.c1f632afa72993ba7a6e.png",
-    "static/media/proyecto-pagina-galeria-arte.png": "/portfolio/static/media/proyecto-pagina-galeria-arte.ce87c73eede9cd4c6704.png",
-    "static/media/proyecto-tarjetas-venta.png": "/portfolio/static/media/proyecto-tarjetas-venta.c45d22c03ade734bb9a9.png",
-    "static/media/html-logo.png": "/portfolio/static/media/html-logo.f1cb2ca554e4148c67a6.png",
-    "static/media/webpack-logo.png": "/portfolio/static/media/webpack-logo.2a9786d5f79a0151fb02.png",
-    "static/media/sql-logo.png": "/portfolio/static/media/sql-logo.0b5f3aa447c65ef2ff29.png",
+    "static/media/revenue-drivers-dashboard.png": "/portfolio/static/media/revenue-drivers-dashboard.a72a4b4307eb1c8a1767.png",
+    "static/media/retail-dashboard.png": "/portfolio/static/media/retail-dashboard.0e1147b58a26df3ed255.png",
     "static/media/icon-whatsApp.png": "/portfolio/static/media/icon-whatsApp.85c70d2c3ab223231670.png",
-    "static/media/react-logo.svg": "/portfolio/static/media/react-logo.59147a8308dd7909ba77c1f30c848464.svg",
-    "static/media/bootstrap-logo.svg": "/portfolio/static/media/bootstrap-logo.fa2753ea8f5439fa2cd53eaaafd4a03c.svg",
     "static/media/icon-github.svg": "/portfolio/static/media/icon-github.376f746105559084ee856620094454e7.svg",
     "index.html": "/portfolio/index.html",
     "static/media/icon-linkedin.svg": "/portfolio/static/media/icon-linkedin.299a1d811c6c10d4964a7018ae43228e.svg",
     "static/media/pattern-rings.svg": "/portfolio/static/media/pattern-rings.e62a24d55bee668faa1f245882fad1b7.svg",
-    "main.c8230b87.css.map": "/portfolio/static/css/main.c8230b87.css.map",
-    "main.b1a3f6e9.js.map": "/portfolio/static/js/main.b1a3f6e9.js.map",
+    "main.ee4083e4.css.map": "/portfolio/static/css/main.ee4083e4.css.map",
+    "main.df1463e8.js.map": "/portfolio/static/js/main.df1463e8.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8230b87.css",
-    "static/js/main.b1a3f6e9.js"
+    "static/css/main.ee4083e4.css",
+    "static/js/main.df1463e8.js"
   ]
 }
